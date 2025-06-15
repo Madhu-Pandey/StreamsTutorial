@@ -1,0 +1,42 @@
+
+# Eclipse & Java files to ignore
+.classpath
+.project
+.settings/
+target/
+bin/
+*.log
+
+# Eclipse system files
+../configuration/
+configuration/
+*.png
+*.jpg
+*.gif
+*.ico
+*.class
+
+# Ignore other projects
+../FirstSample/
+# Maven target directory
+/target/
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JAR and ZIP files
+*.jar
+*.zip
+/target/
