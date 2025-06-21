@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-16T22:56:34 IST" name="Default suite" finished-at="2025-06-16T22:56:34 IST" duration-ms="71">
+  <suite started-at="2025-06-18T22:39:09 IST" name="Default suite" finished-at="2025-06-18T22:39:09 IST" duration-ms="36">
     <groups>
     </groups>
-    <test started-at="2025-06-16T22:56:34 IST" name="Default test" finished-at="2025-06-16T22:56:34 IST" duration-ms="71">
+    <test started-at="2025-06-18T22:39:09 IST" name="Default test" finished-at="2025-06-18T22:39:09 IST" duration-ms="36">
       <class name="streams.NamesFilter">
-        <test-method signature="regular()[pri:0, instance:streams.NamesFilter@14dd9eb7]" started-at="2025-06-16T22:56:34 IST" name="regular" finished-at="2025-06-16T22:56:34 IST" duration-ms="10" status="PASS">
+        <test-method signature="regular()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="regular" finished-at="2025-06-18T22:39:09 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regular -->
-        <test-method signature="streamCollect()[pri:0, instance:streams.NamesFilter@14dd9eb7]" started-at="2025-06-16T22:56:34 IST" name="streamCollect" finished-at="2025-06-16T22:56:34 IST" duration-ms="5" status="PASS">
+        <test-method signature="streamCollect()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="streamCollect" finished-at="2025-06-18T22:39:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- streamCollect -->
-        <test-method signature="streamFilter()[pri:0, instance:streams.NamesFilter@14dd9eb7]" started-at="2025-06-16T22:56:34 IST" name="streamFilter" finished-at="2025-06-16T22:56:34 IST" duration-ms="4" status="PASS">
+        <test-method signature="streamFilter()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="streamFilter" finished-at="2025-06-18T22:39:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- streamFilter -->
-        <test-method signature="streamMap()[pri:0, instance:streams.NamesFilter@14dd9eb7]" started-at="2025-06-16T22:56:34 IST" name="streamMap" finished-at="2025-06-16T22:56:34 IST" duration-ms="5" status="PASS">
+        <test-method signature="streamMap()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="streamMap" finished-at="2025-06-18T22:39:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- streamMap -->
