@@ -1,29 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-18T22:39:09 IST" name="Default suite" finished-at="2025-06-18T22:39:09 IST" duration-ms="36">
+  <suite started-at="2025-06-28T23:20:33 IST" name="Suite" finished-at="2025-06-28T23:20:33 IST" duration-ms="50">
     <groups>
     </groups>
-    <test started-at="2025-06-18T22:39:09 IST" name="Default test" finished-at="2025-06-18T22:39:09 IST" duration-ms="36">
-      <class name="streams.NamesFilter">
-        <test-method signature="regular()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="regular" finished-at="2025-06-18T22:39:09 IST" duration-ms="5" status="PASS">
+    <test started-at="2025-06-28T23:20:33 IST" name="Web" finished-at="2025-06-28T23:20:33 IST" duration-ms="15">
+      <class name="testngtutorial.demo2">
+        <test-method signature="webLogin()[pri:0, instance:testngtutorial.demo2@1623b78d]" started-at="2025-06-28T23:20:33 IST" name="webLogin" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regular -->
-        <test-method signature="streamCollect()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="streamCollect" finished-at="2025-06-18T22:39:09 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- webLogin -->
+        <test-method signature="webLogout()[pri:0, instance:testngtutorial.demo2@1623b78d]" started-at="2025-06-28T23:20:33 IST" name="webLogout" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- streamCollect -->
-        <test-method signature="streamFilter()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="streamFilter" finished-at="2025-06-18T22:39:09 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- webLogout -->
+      </class> <!-- testngtutorial.demo2 -->
+      <class name="testngtutorial.demo1">
+        <test-method is-config="true" signature="dempPre()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="dempPre" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- streamFilter -->
-        <test-method signature="streamMap()[pri:0, instance:streams.NamesFilter@62150f9e]" started-at="2025-06-18T22:39:09 IST" name="streamMap" finished-at="2025-06-18T22:39:09 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- dempPre -->
+        <test-method signature="demoWelcome()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="demoWelcome" finished-at="2025-06-28T23:20:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- streamMap -->
-      </class> <!-- streams.NamesFilter -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- demoWelcome -->
+        <test-method is-config="true" signature="demoAfter()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="demoAfter" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoAfter -->
+      </class> <!-- testngtutorial.demo1 -->
+    </test> <!-- Web -->
+    <test started-at="2025-06-28T23:20:33 IST" name="API" finished-at="2025-06-28T23:20:33 IST" duration-ms="3">
+      <class name="testngtutorial.demo3">
+        <test-method is-config="true" signature="apiBefore()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="apiBefore" finished-at="2025-06-28T23:20:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiBefore -->
+        <test-method signature="apiLogin()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="apiLogin" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogin -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="beforeEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="afterEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEvery -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="beforeEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="apiLogout()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="apiLogout" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogout -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="afterEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEvery -->
+      </class> <!-- testngtutorial.demo3 -->
+      <class name="testngtutorial.demo1">
+        <test-method is-config="true" signature="dempAfSuit()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="dempAfSuit" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dempAfSuit -->
+      </class> <!-- testngtutorial.demo1 -->
+    </test> <!-- API -->
+  </suite> <!-- Suite -->
 </testng-results>
