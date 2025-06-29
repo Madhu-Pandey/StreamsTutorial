@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<test thread-count="5" name="Web">
+	<test name="demo">
+		<parameter name="URL" value="demourl.com" />
 		<classes>
 			<class name="testngtutorial.demo1" />
-			<class name="testngtutorial.demo2" />
 		</classes>
-
 	</test>
+	
+	<test thread-count="5" name="Web and Mobile">
+		<parameter name="URL" value="webmobileurl.com" />
+		<classes>
+			<class name="testngtutorial.demo2" />
+			<class name="testngtutorial.demo4" />
+		</classes>
+	</test>
+	
 	<test name="API">
+		<parameter name="URL" value="apiurl.com" />
 		<classes>
 			<class name="testngtutorial.demo3" />
 		</classes>
 	</test>
+	
 </suite> 

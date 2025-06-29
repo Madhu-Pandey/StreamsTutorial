@@ -3,6 +3,7 @@ package testngtutorial;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class demo1 {
@@ -18,10 +19,12 @@ public class demo1 {
 	{
 		System.out.println("Execute at Last");
 	}
+	@Parameters({"URL"})
 	@Test
-	public void demoWelcome()
+	public void demoWelcome(String url)
 	{
 		System.out.println("Hello TestNG Demo");
+		System.out.println(url);
 	}
 	
 	@BeforeTest

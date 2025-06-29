@@ -4,6 +4,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class demo3 {
@@ -20,7 +21,7 @@ public class demo3 {
 		System.out.println("Execute after each test methods Demo3 Class");
 	}
 	
-	@Test
+	@Test(groups= {"Smoke"})
 	public void apiLogin()
 	{
 		System.out.println("API Loggedin");
@@ -31,10 +32,11 @@ public class demo3 {
 	{
 		System.out.println("Executing Before suite in API to set header keys");
 	}
-	
+	@Parameters({"URL"})
 	@Test
-	public void apiLogout()
+	public void apiLogout(String url)
 	{
 		System.out.println("API logged out");
+		System.out.println(url);
 	}
 }
