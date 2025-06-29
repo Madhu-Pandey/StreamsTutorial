@@ -3,6 +3,7 @@
 <suite name="Suite">
 	<test name="demo">
 		<parameter name="URL" value="demourl.com" />
+		<parameter name="Username" value="User123" />
 		<classes>
 			<class name="testngtutorial.demo1" />
 		</classes>

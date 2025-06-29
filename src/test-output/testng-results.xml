@@ -1,69 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="1" total="12" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-28T23:20:33 IST" name="Suite" finished-at="2025-06-28T23:20:33 IST" duration-ms="50">
+  <suite started-at="2025-06-29T23:18:10 IST" name="Suite" finished-at="2025-06-29T23:18:10 IST" duration-ms="83">
     <groups>
+      <group name="Smoke">
+        <method signature="demo4.mobileLogin()[pri:0, instance:testngtutorial.demo4@3c41ed1d]" name="mobileLogin" class="testngtutorial.demo4"/>
+        <method signature="demo2.webLogin()[pri:0, instance:testngtutorial.demo2@36ebc363]" name="webLogin" class="testngtutorial.demo2"/>
+        <method signature="demo3.apiLogin()[pri:0, instance:testngtutorial.demo3@1f2586d6]" name="apiLogin" class="testngtutorial.demo3"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-06-28T23:20:33 IST" name="Web" finished-at="2025-06-28T23:20:33 IST" duration-ms="15">
-      <class name="testngtutorial.demo2">
-        <test-method signature="webLogin()[pri:0, instance:testngtutorial.demo2@1623b78d]" started-at="2025-06-28T23:20:33 IST" name="webLogin" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLogin -->
-        <test-method signature="webLogout()[pri:0, instance:testngtutorial.demo2@1623b78d]" started-at="2025-06-28T23:20:33 IST" name="webLogout" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLogout -->
-      </class> <!-- testngtutorial.demo2 -->
+    <test started-at="2025-06-29T23:18:10 IST" name="demo" finished-at="2025-06-29T23:18:10 IST" duration-ms="21">
       <class name="testngtutorial.demo1">
-        <test-method is-config="true" signature="dempPre()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="dempPre" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="dempPre()[pri:0, instance:testngtutorial.demo1@6aeb35e6]" started-at="2025-06-29T23:18:10 IST" name="dempPre" finished-at="2025-06-29T23:18:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dempPre -->
-        <test-method signature="demoWelcome()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="demoWelcome" finished-at="2025-06-28T23:20:33 IST" duration-ms="2" status="PASS">
+        <test-method signature="demoData(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@6aeb35e6]" started-at="2025-06-29T23:18:10 IST" name="demoData" data-provider="getData" finished-at="2025-06-29T23:18:10 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superadmin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoData -->
+        <test-method signature="demoData(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@6aeb35e6]" started-at="2025-06-29T23:18:10 IST" name="demoData" data-provider="getData" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoData -->
+        <test-method signature="demoData(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@6aeb35e6]" started-at="2025-06-29T23:18:10 IST" name="demoData" data-provider="getData" finished-at="2025-06-29T23:18:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[u@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoData -->
+        <test-method signature="demoWelcome(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@6aeb35e6]" started-at="2025-06-29T23:18:10 IST" name="demoWelcome" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demourl.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoWelcome -->
-        <test-method is-config="true" signature="demoAfter()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="demoAfter" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="demoAfter()[pri:0, instance:testngtutorial.demo1@6aeb35e6]" started-at="2025-06-29T23:18:10 IST" name="demoAfter" finished-at="2025-06-29T23:18:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoAfter -->
       </class> <!-- testngtutorial.demo1 -->
-    </test> <!-- Web -->
-    <test started-at="2025-06-28T23:20:33 IST" name="API" finished-at="2025-06-28T23:20:33 IST" duration-ms="3">
+    </test> <!-- demo -->
+    <test started-at="2025-06-29T23:18:10 IST" name="Web and Mobile" finished-at="2025-06-29T23:18:10 IST" duration-ms="17">
+      <class name="testngtutorial.demo4">
+        <test-method signature="mobileLogin()[pri:0, instance:testngtutorial.demo4@3c41ed1d]" started-at="2025-06-29T23:18:10 IST" name="mobileLogin" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogin -->
+        <test-method signature="mobileLogout()[pri:0, instance:testngtutorial.demo4@3c41ed1d]" started-at="2025-06-29T23:18:10 IST" name="mobileLogout" finished-at="2025-06-29T23:18:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogout -->
+        <test-method signature="mobileDemo()[pri:0, instance:testngtutorial.demo4@3c41ed1d]" started-at="2025-06-29T23:18:10 IST" name="mobileDemo" finished-at="2025-06-29T23:18:10 IST" depends-on-methods="testngtutorial.demo4.mobileLogout, testngtutorial.demo4.mobileLogin" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileDemo -->
+      </class> <!-- testngtutorial.demo4 -->
+      <class name="testngtutorial.demo2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testngtutorial.demo2@36ebc363]" started-at="2025-06-29T23:18:10 IST" name="beforeClass" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="webLogin()[pri:0, instance:testngtutorial.demo2@36ebc363]" started-at="2025-06-29T23:18:10 IST" name="webLogin" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+        <test-method signature="webLogout(java.lang.String)[pri:0, instance:testngtutorial.demo2@36ebc363]" started-at="2025-06-29T23:18:10 IST" name="webLogout" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webmobileurl.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogout -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testngtutorial.demo2@36ebc363]" started-at="2025-06-29T23:18:10 IST" name="afterClass" finished-at="2025-06-29T23:18:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testngtutorial.demo2 -->
+    </test> <!-- Web and Mobile -->
+    <test started-at="2025-06-29T23:18:10 IST" name="API" finished-at="2025-06-29T23:18:10 IST" duration-ms="7">
       <class name="testngtutorial.demo3">
-        <test-method is-config="true" signature="apiBefore()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="apiBefore" finished-at="2025-06-28T23:20:33 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="apiBefore()[pri:0, instance:testngtutorial.demo3@1f2586d6]" started-at="2025-06-29T23:18:10 IST" name="apiBefore" finished-at="2025-06-29T23:18:10 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiBefore -->
-        <test-method signature="apiLogin()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="apiLogin" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@1f2586d6]" started-at="2025-06-29T23:18:10 IST" name="beforeEvery" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="apiLogin()[pri:0, instance:testngtutorial.demo3@1f2586d6]" started-at="2025-06-29T23:18:10 IST" name="apiLogin" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiLogin -->
-        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="beforeEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEvery -->
-        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="afterEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@1f2586d6]" started-at="2025-06-29T23:18:10 IST" name="afterEvery" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEvery -->
-        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="beforeEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEvery -->
-        <test-method signature="apiLogout()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="apiLogout" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+        <test-method signature="apiLogout(java.lang.String)[pri:0, instance:testngtutorial.demo3@1f2586d6]" started-at="2025-06-29T23:18:10 IST" name="apiLogout" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apiurl.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiLogout -->
-        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@443118b0]" started-at="2025-06-28T23:20:33 IST" name="afterEvery" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@1f2586d6]" started-at="2025-06-29T23:18:10 IST" name="beforeEvery" finished-at="2025-06-29T23:18:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@1f2586d6]" started-at="2025-06-29T23:18:10 IST" name="afterEvery" finished-at="2025-06-29T23:18:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEvery -->
       </class> <!-- testngtutorial.demo3 -->
       <class name="testngtutorial.demo1">
-        <test-method is-config="true" signature="dempAfSuit()[pri:0, instance:testngtutorial.demo1@77847718]" started-at="2025-06-28T23:20:33 IST" name="dempAfSuit" finished-at="2025-06-28T23:20:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="dempAfSuit()[pri:0, instance:testngtutorial.demo1@6aeb35e6]" started-at="2025-06-29T23:18:10 IST" name="dempAfSuit" finished-at="2025-06-29T23:18:10 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dempAfSuit -->
