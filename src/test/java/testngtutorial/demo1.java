@@ -1,5 +1,6 @@
 package testngtutorial;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -8,9 +9,15 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class demo1 {
+	@Test
+	public void demoFail()
+	{
+		System.out.println("Listener Method");
+		Assert.assertTrue(false);
+	}
 	
 	@AfterSuite
-	public void dempAfSuit()
+	public void demoAfSuit()
 	{
 		System.out.println("Executing at the very last - After Suite Demo");
 	}

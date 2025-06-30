@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="testngtutorial.Listeners" />
+	</listeners>
 	<test name="demo">
 		<parameter name="URL" value="demourl.com" />
 		<parameter name="Username" value="User123" />
@@ -8,7 +11,7 @@
 			<class name="testngtutorial.demo1" />
 		</classes>
 	</test>
-	
+
 	<test thread-count="5" name="Web and Mobile">
 		<parameter name="URL" value="webmobileurl.com" />
 		<classes>
@@ -16,12 +19,12 @@
 			<class name="testngtutorial.demo4" />
 		</classes>
 	</test>
-	
+
 	<test name="API">
 		<parameter name="URL" value="apiurl.com" />
 		<classes>
 			<class name="testngtutorial.demo3" />
 		</classes>
 	</test>
-	
+
 </suite> 
