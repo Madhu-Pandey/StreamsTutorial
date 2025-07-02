@@ -1,214 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="13" passed="11" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-30T22:31:50 IST" name="Suite" finished-at="2025-06-30T22:31:50 IST" duration-ms="65">
+  <suite started-at="2025-07-02T23:28:36 IST" name="Default suite" finished-at="2025-07-02T23:28:36 IST" duration-ms="19">
     <groups>
-      <group name="Smoke">
-        <method signature="demo4.mobileLogin()[pri:0, instance:testngtutorial.demo4@38425407]" name="mobileLogin" class="testngtutorial.demo4"/>
-        <method signature="demo2.webLogin()[pri:0, instance:testngtutorial.demo2@34e9fd99]" name="webLogin" class="testngtutorial.demo2"/>
-        <method signature="demo3.apiLogin()[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" name="apiLogin" class="testngtutorial.demo3"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-06-30T22:31:50 IST" name="Web and Mobile" finished-at="2025-06-30T22:31:50 IST" duration-ms="28">
-      <class name="testngtutorial.demo4">
-        <test-method signature="mobileLogin()[pri:0, instance:testngtutorial.demo4@38425407]" started-at="2025-06-30T22:31:50 IST" name="mobileLogin" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
+    <test started-at="2025-07-02T23:28:36 IST" name="Default test" finished-at="2025-07-02T23:28:36 IST" duration-ms="19">
+      <class name="testngtutorial.ChildClass">
+        <test-method is-config="true" signature="beforeTask()[pri:0, instance:testngtutorial.ChildClass@7c729a55]" started-at="2025-07-02T23:28:36 IST" name="beforeTask" finished-at="2025-07-02T23:28:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobileLogin -->
-        <test-method signature="mobileLogout()[pri:0, instance:testngtutorial.demo4@38425407]" started-at="2025-06-30T22:31:50 IST" name="mobileLogout" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- beforeTask -->
+        <test-method signature="childTask()[pri:0, instance:testngtutorial.ChildClass@7c729a55]" started-at="2025-07-02T23:28:36 IST" name="childTask" finished-at="2025-07-02T23:28:36 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobileLogout -->
-        <test-method signature="mobileDemo()[pri:0, instance:testngtutorial.demo4@38425407]" started-at="2025-06-30T22:31:50 IST" name="mobileDemo" finished-at="2025-06-30T22:31:50 IST" depends-on-methods="testngtutorial.demo4.mobileLogout, testngtutorial.demo4.mobileLogin" duration-ms="1" status="PASS">
+        </test-method> <!-- childTask -->
+        <test-method is-config="true" signature="afterTask()[pri:0, instance:testngtutorial.ChildClass@7c729a55]" started-at="2025-07-02T23:28:36 IST" name="afterTask" finished-at="2025-07-02T23:28:36 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobileDemo -->
-      </class> <!-- testngtutorial.demo4 -->
-      <class name="testngtutorial.demo2">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testngtutorial.demo2@34e9fd99]" started-at="2025-06-30T22:31:50 IST" name="beforeClass" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="webLogin()[pri:0, instance:testngtutorial.demo2@34e9fd99]" started-at="2025-06-30T22:31:50 IST" name="webLogin" finished-at="2025-06-30T22:31:50 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLogin -->
-        <test-method signature="webLogout(java.lang.String)[pri:0, instance:testngtutorial.demo2@34e9fd99]" started-at="2025-06-30T22:31:50 IST" name="webLogout" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[webmobileurl.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webLogout -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testngtutorial.demo2@34e9fd99]" started-at="2025-06-30T22:31:50 IST" name="afterClass" finished-at="2025-06-30T22:31:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- testngtutorial.demo2 -->
-    </test> <!-- Web and Mobile -->
-    <test started-at="2025-06-30T22:31:50 IST" name="demo" finished-at="2025-06-30T22:31:50 IST" duration-ms="28">
-      <class name="testngtutorial.demo1">
-        <test-method is-config="true" signature="dempPre()[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="dempPre" finished-at="2025-06-30T22:31:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dempPre -->
-        <test-method signature="demoData(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="demoData" data-provider="getData" finished-at="2025-06-30T22:31:50 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[superadmin123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[s@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoData -->
-        <test-method signature="demoData(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="demoData" data-provider="getData" finished-at="2025-06-30T22:31:50 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoData -->
-        <test-method signature="demoData(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="demoData" data-provider="getData" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[u@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoData -->
-        <test-method signature="demoFail()[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="demoFail" finished-at="2025-06-30T22:31:50 IST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testngtutorial.demo1.demoFail(demo1.java:16)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoFail -->
-        <test-method signature="demoWelcome(java.lang.String,java.lang.String)[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="demoWelcome" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[demourl.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[User123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoWelcome -->
-        <test-method is-config="true" signature="demoAfter()[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="demoAfter" finished-at="2025-06-30T22:31:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoAfter -->
-      </class> <!-- testngtutorial.demo1 -->
-    </test> <!-- demo -->
-    <test started-at="2025-06-30T22:31:50 IST" name="API" finished-at="2025-06-30T22:31:50 IST" duration-ms="4">
-      <class name="testngtutorial.demo3">
-        <test-method is-config="true" signature="apiBefore()[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" started-at="2025-06-30T22:31:50 IST" name="apiBefore" finished-at="2025-06-30T22:31:50 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apiBefore -->
-        <test-method signature="apiLogin()[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" started-at="2025-06-30T22:31:50 IST" name="apiLogin" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apiLogin -->
-        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" started-at="2025-06-30T22:31:50 IST" name="beforeEvery" finished-at="2025-06-30T22:31:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEvery -->
-        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" started-at="2025-06-30T22:31:50 IST" name="afterEvery" finished-at="2025-06-30T22:31:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEvery -->
-        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" started-at="2025-06-30T22:31:50 IST" name="beforeEvery" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeEvery -->
-        <test-method signature="apiLogout(java.lang.String)[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" started-at="2025-06-30T22:31:50 IST" name="apiLogout" finished-at="2025-06-30T22:31:50 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[apiurl.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apiLogout -->
-        <test-method is-config="true" signature="afterEvery()[pri:0, instance:testngtutorial.demo3@5aa9e4eb]" started-at="2025-06-30T22:31:50 IST" name="afterEvery" finished-at="2025-06-30T22:31:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEvery -->
-      </class> <!-- testngtutorial.demo3 -->
-      <class name="testngtutorial.demo1">
-        <test-method is-config="true" signature="demoAfSuit()[pri:0, instance:testngtutorial.demo1@74f0ea28]" started-at="2025-06-30T22:31:50 IST" name="demoAfSuit" finished-at="2025-06-30T22:31:50 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoAfSuit -->
-      </class> <!-- testngtutorial.demo1 -->
-    </test> <!-- API -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- afterTask -->
+      </class> <!-- testngtutorial.ChildClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
